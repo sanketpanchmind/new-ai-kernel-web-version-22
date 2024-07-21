@@ -1,0 +1,88 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    // font-family: "Calistoga", serif;
+    background: linear-gradient(180deg,#f5fcfe 3.31%,#f6fcff);
+}
+
+:root {
+    --bg-gradient: linear-gradient(90deg, #EFC057 0%, #F0A55F 13%, #F17C6B 26%, #F25C74 41%, #D15495 58%, #8F6DC7 79%, #5485F4 100%);
+    --main-color: #F26E6F;
+}
+
+.text-gradient {
+    background-image: -webkit-linear-gradient(90deg, #EFC057 0%, #F0A55F 13%, #F17C6B 26%, #F25C74 41%, #D15495 58%, #8F6DC7 79%, #5485F4 100%);
+    background-image: -moz-linear-gradient(90deg, #EFC057 0%, #F0A55F 13%, #F17C6B 26%, #F25C74 41%, #D15495 58%, #8F6DC7 79%, #5485F4 100%);
+    background-image: linear-gradient(90deg, #EFC057 0%, #F0A55F 13%, #F17C6B 26%, #F25C74 41%, #D15495 58%, #8F6DC7 79%, #5485F4 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-mask-image: linear-gradient(90deg, #EFC057 0%, #F0A55F 13%, #F17C6B 26%, #F25C74 41%, #D15495 58%, #8F6DC7 79%, #5485F4 100%);
+    mask-image: linear-gradient(90deg, #EFC057 0%, #F0A55F 13%, #F17C6B 26%, #F25C74 41%, #D15495 58%, #8F6DC7 79%, #5485F4 100%);
+}
+
+.bg-gradient {
+    background: var(--bg-gradient);
+}
+
+.text-main {
+    // color: var(--main-color);
+    color: #ff4800;
+}
+
+.bg-main {
+    background-color: var(--main-color);
+}
+
+.btn-main{
+  color: #fff;
+  background-color: #ff4800;
+  text-align: center;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 50px;
+  width: max-content;
+  font-size: 0.85rem;
+}
+.btn-main:hover{
+  background-color: #4ac728!important;
+  color: #fff;
+  transition: 1s all;
+}
+.btn-main-outline{
+  border: 2px solid #ff4800;
+  background-color: transparent;
+  color: #57647c !important;
+  width: max-content;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: 0.5s;
+
+}
+.btn-main-outline:hover{
+  border: 2px solid #4ac728;
+    background-color: #4ac728;
+    color: #fff !important;
+    transition: 0.5s;
+}
+p{
+  color: #57647c;
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+.form-select:focus {
+  border-color: #86b7fe;
+  outline: 0;
+   box-shadow:none !important;
+}
+.title{
+  color: #010d4c;
+  font-family: "Calistoga", serif;
+  font-weight: 500;
+}
