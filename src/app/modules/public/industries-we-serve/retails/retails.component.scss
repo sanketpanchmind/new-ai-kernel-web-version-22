@@ -1,0 +1,150 @@
+section{
+  padding: 100px 0;
+}
+#retails_banner {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+}
+#retails_banner .square_shape_img2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  animation: bounce 4s infinite both;
+}
+#retails_banner .square_shape_img{
+  position: absolute;
+  top: 5%;
+  animation: bounce 3s infinite both;
+}
+@keyframes bounce{
+  0%{
+    transform: translate3d(0,0,0);
+  }
+  40%{
+    transform: translate3d(0,10px,0);
+  }
+  100%{
+    transform: translate3d(0,0,0);
+  }
+}
+.retail_key_features .card{
+  overflow: hidden;
+  transition: 0.5s;
+}
+.retail_key_features .card img{
+  width: 100%;
+  height: 300px;
+}
+.retail_key_features .card .card-header{
+  position: relative;
+}
+.retail_key_features .card:hover{
+  margin-top: -10px;
+  box-shadow: var(--bs-box-shadow) !important;
+  transition: 0.5s;
+}
+.retail_key_features .card .card-header a{
+  position: absolute;
+  right: -16%;
+  bottom: -20%;
+  background-color: #010d4c;
+  width: 100px;
+  height: 100px;
+  padding: 27px 36px;
+  border-radius: 50px;
+  color: #fff;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+  font-size: 2rem;
+}
+.retail_key_features .card:hover .card-header a{
+  position: absolute;
+  right: -6%;
+  bottom: -8%;
+  background-color: #010d4c;
+  width: 100px;
+  height: 100px;
+  padding: 27px 36px;
+  border-radius: 50px;
+  color: #fff;
+  opacity: 1;
+  transition: 0.5s ease-in-out;
+  font-size: 2rem;
+}
+// end
+
+// why_charlie_retail
+
+.why_charlie_retail .card img{
+  width: 60px;
+  height: 60px;
+}
+// end
+
+// retail_contact
+
+.retail_contact .retail_contact_title{
+  font-size: 3rem;
+  color: #010d4c;
+  font-weight: 500;
+}
+.retail_contact{
+  position: relative;
+}
+.retail_contact::after{
+  content: "";
+  position: absolute;
+  left: 20%;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #010d4c99;
+  animation: bounce 3s infinite both;
+}
+
+// end
+
+// success_stories
+.success_stories .card_title{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #010d4c;
+}
+.success_stories .card .card-header{
+  position: relative;
+}
+.success_stories .card:hover{
+  margin-top: -10px;
+  box-shadow: var(--bs-box-shadow) !important;
+  transition: 0.5s;
+}
+.success_stories .card .card-header a{
+  position: absolute;
+  right: -16%;
+  bottom: -20%;
+  background-color: #010d4c;
+  width: 100px;
+  height: 100px;
+  padding: 27px 36px;
+  border-radius: 50px;
+  color: #fff;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+  font-size: 2rem;
+}
+.success_stories .card:hover .card-header a{
+  position: absolute;
+  right: -6%;
+  bottom: -8%;
+  background-color: #010d4c;
+  width: 100px;
+  height: 100px;
+  padding: 27px 36px;
+  border-radius: 50px;
+  color: #fff;
+  opacity: 1;
+  transition: 0.5s ease-in-out;
+  font-size: 2rem;
+}

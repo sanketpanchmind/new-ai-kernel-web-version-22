@@ -1,0 +1,120 @@
+#contactus {
+  background-color: #f6fcff;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+// .banner_section{
+//   height: 40vh;
+//   width: 100%;
+//   padding: 0;
+//   position: relative;
+// }
+.banner_section h2 {
+  text-align: center;
+  width: 100%;
+  font-size: 4rem;
+  font-weight: 500;
+  color: #01013c;
+}
+
+.banner_section nav ol li a {
+  text-decoration: none;
+}
+
+.banner_section nav ol li a:nth-child(1) {
+  color: #01013c;
+}
+
+.banner_section .left_side_img {
+  position: absolute;
+  left: 0;
+  animation: bounce 3s infinite ease-in-out;
+}
+
+.float-contact-img {
+  animation: bounce 3s infinite ease-in-out;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  40% {
+    transform: translate3d(0, 7px, 0);
+
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+
+  }
+}
+
+
+.contact_info_section .card.card-body {
+  padding: 50px;
+  border: 0;
+  box-shadow: 1px 1px 1px 1px #fff;
+}
+
+.contact_info_section .card.card-body .location,
+.contact_info_section .card.card-body .contact_number,
+.contact_info_section .card.card-body .live_support {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #e5e5e5;
+  border-radius: 50px 50px;
+}
+
+.contact_info_section .card.card-body img {
+  width: 35px;
+}
+
+.contact_info_section h4 {
+  font-weight: 500;
+  color: #01013c;
+}
+
+.contact_info_section p {
+  font-size: 1.2rem;
+}
+
+.contact_info_section .card.card-body a {
+  color: #01013c;
+  font-weight: 500;
+}
+
+.contact_form .map iframe {
+  width: 100%;
+  height: 500px;
+}
+
+.contact_form h2 {
+  color: #01013c;
+  ;
+}
+
+.form-select,
+.contact_form label {
+  font-size: 0.885rem;
+  color: #57647c;
+}
+
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: transparent;
+  border-color: transparent;
+  outline: 0;
+  box-shadow: 0 0 0 0.125rem rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 479px) {
+  .banner_section h2 {
+    font-size: 2rem;
+
+  }
+}

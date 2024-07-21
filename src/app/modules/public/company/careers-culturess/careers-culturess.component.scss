@@ -1,0 +1,184 @@
+section {
+  padding: 100px 0;
+}
+
+#career_banner {
+  height: 80vh;
+  width: 100%;
+  padding: 0;
+  position: relative;
+}
+
+.employee_benefits,
+.open_positions .title,
+#career_banner .title {
+  font-size: 3rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+}
+
+.rotate-top-img {
+  position: absolute;
+  top: 20px;
+  right: 33%;
+  animation: rotate 7s infinite both;
+}
+
+.cross-img {
+  position: absolute;
+  right: 5%;
+  bottom: 50%;
+  height: 20px;
+  width: 20px;
+  animation: rotate 7s infinite both;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.employee_benefits{
+  background: linear-gradient(310deg, rgb(189 232 249) 0, rgba(115, 217, 245, 0.52) 48.22%, #f6fdff 100%);
+}
+
+.employee_benefits img {
+  width: 35px;
+}
+
+.employee_benefits p {
+  font-size: 1.1rem;
+}
+
+.employee_benefits .card {
+  padding: 30px 20px;
+  margin: 10px 0;
+}
+
+.employee_benefits .card:hover {
+  background-color: #010d4c !important;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.employee_benefits .card span {
+  font-size: 1rem;
+}
+
+.employee_benefits .border_line {
+  position: relative;
+}
+
+.employee_benefits .border_line::after {
+  content: "";
+  height: 100%;
+  width: 1px;
+  background-color: #010d4c !important;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.open_positions {
+  background: linear-gradient(0deg, rgba(248, 253, 255, 0) 0, rgba(241, 252, 255, .51782) 48.22%, #f6fdff 100%);
+}
+
+.open_positions .card {
+  padding: 25px 30px;
+  border: 0;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.open_positions .card .position_title {
+  font-size: 1rem;
+  color: #010d4c;
+  font-weight: 500;
+  padding: 25px 0;
+}
+
+.open_positions .card ul li {
+  font-size: 0.85rem;
+  padding: 5px 0;
+  color: #010d4c;
+}
+
+.open_positions .card .shape-one {
+  position: absolute;
+  right: -90px;
+  bottom: -70px;
+  background-color: #010d4c;
+  color: #fff;
+  width: -moz-fit-content;
+  width: 100px;
+  height: 100px;
+  padding: 25px 30px;
+  border-radius: 50px;
+  font-size: 2rem;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.open_positions .card:hover {
+  margin-top: -10px;
+  transition: 0.3s ease-in-out;
+}
+
+.open_positions .card:hover .shape-one {
+  position: absolute;
+  right: -20px;
+  bottom: -30px;
+  background-color: #010d4c;
+  color: #fff;
+  width: -moz-fit-content;
+  width: 100px;
+  height: 100px;
+  padding: 25px 30px;
+  border-radius: 50px;
+  font-size: 2rem;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+
+
+@media only screen and (max-width:479px) {
+
+  .employee_benefits,
+  .open_positions .title,
+  #career_banner .title {
+    font-size: 2rem;
+  }
+
+  .cross-img {
+    position: absolute;
+    right: 5%;
+    bottom: 30%;
+    height: 20px;
+    width: 20px;
+    animation: _ngcontent-ng-c3157249342_rotate 7s infinite both;
+  }
+
+  .rotate-top-img {
+    position: absolute;
+    top: 20px;
+    left: 23%;
+    width: 50px;
+    animation: rotate 7s infinite both;
+  }
+
+  .employee_benefits .border_line::after {
+    display: none;
+  }
+
+  .open_positions .card:hover {
+    margin-top: 0;
+  }
+}

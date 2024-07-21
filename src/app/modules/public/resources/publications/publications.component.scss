@@ -1,0 +1,170 @@
+#publications_banner{
+  height: 80vh;
+  width: 100%;
+  padding: 0;
+
+  // background-image: url('https://img.freepik.com/free-photo/view-books-arrangement_23-2148882757.jpg?t=st=1714034669~exp=1714038269~hmac=6746a2fdf766001cd5c888280e174b048d728207d948c582420b24a239799458&w=826');
+  // background-size: cover;
+  // background-repeat: no-repeat;
+}
+#publications_banner .title{
+  font-size: 4rem;
+}
+#publications_banner .subtitle{
+  font-size: 1rem;
+  // font-family: "Calistoga", serif;
+}
+
+section{
+  padding: 100px 0;
+}
+
+.publications_cards {
+  position: relative;
+}
+.publications_cards{
+  background-color: #dcf3ff;
+}
+.publications_cards .shape-one{
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: #ff4800;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  animation: bounce 4s infinite both;
+}
+@keyframes bounce {
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  40%{
+    transform: translate3d(0, 40px, 0);
+
+  }
+  100%{
+    transform: translate3d(0, 0, 0);
+  }
+}
+.publications_cards .title,
+.our_patents .title{
+  font-size: 3rem;
+  padding: 40px 0;
+}
+ .card,
+ .card .card-header{
+  border: 0;
+  padding: 0;
+}
+.card .card-header img{
+  width: 100%;
+  height: 300px;
+  transition: 1s;
+
+}
+.card .card-header{
+  position: relative;
+  overflow: hidden;
+  transition: 2s;
+}
+ .card .card-header a.arrow_icon{
+  position: absolute !important;
+  bottom: -40px;
+  right: -50px;
+  width: 150px;
+  height: 150px;
+  background-color: #010d4c;
+  border-radius: 100px;
+  padding: 40px;
+    font-size: 2rem;
+    color: #fff;
+  transition: 1s;
+  display: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+ .card:hover{
+  margin-top: -10px;
+  transition: 0.2s ease-in-out;
+}
+ .card:hover .card-header a.arrow_icon{
+  position: absolute !important;
+  bottom: -40px;
+  right: -50px;
+  width: 150px;
+  height: 150px;
+  background-color: #ff4800;
+  border-radius: 100px;
+  padding: 40px;
+    font-size: 2rem;
+    color: #fff;
+    display: block;
+  transition: 1s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ .card .card-body{
+  padding: 30px 10px;
+}
+ .card .card-body small{
+  color: #010d4c;
+}
+.card .card-body .card_title{
+  font-size: 1.1rem;
+  color: #010d4c;
+  font-weight: 500;
+}
+.our_patents {
+  position: relative;
+}
+.our_patents .shape-two{
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: #ff4800;
+  position: absolute;
+  top: 0%;
+  left: 20%;
+  animation: bounce 4s infinite both;
+}
+@keyframes bounce {
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  40%{
+    transform: translate3d(0, 40px, 0);
+
+  }
+  100%{
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media only screen and (max-width:479px){
+  #publications_banner  .title{
+    font-size: 2rem;
+}
+#publications_banner img{
+  width: 300px;
+}
+#publications_banner .subtitle {
+  font-size: 0.85rem;
+}
+.publications_cards .title, .our_patents .title {
+  font-size: 2rem;
+  padding: 40px 0;
+}
+.card,
+.card .card-header {
+  border: 0;
+  padding: 0;
+  transform: scale(0.95);
+}
+.card .card-body .card_title {
+  font-size: 0.85rem;
+  color: #010d4c;
+  font-weight: 500;
+}
+}

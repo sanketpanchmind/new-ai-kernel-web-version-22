@@ -1,0 +1,191 @@
+section {
+  padding: 100px 0px !important;
+}
+
+.what_is_charlie_banner_section {
+  height: 70vh;
+  width: 100%;
+}
+
+.banner_title {
+  font-size: 4rem;
+  color: #01013c;
+}
+
+.banner_text .banner_subtitle {
+  font-size: 1rem;
+
+}
+
+.banner_text .play_icon {
+  background-color: #ff4800;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  padding: 11px 0px;
+  /* font-size: 24px; */
+  text-align: center;
+  border-radius: 50px;
+}
+
+// end
+
+// what_is_charlie
+.what_is_charlie .title {
+  font-size: 4rem;
+  font-family: "Calistoga", serif;
+}
+
+.what_is_charlie .title span {
+  color: #ff4800;
+}
+
+// ends
+
+// why choose CHARLIE Video Analytics Software
+
+.why_choose_charlie .card img {
+  width: 50px;
+}
+
+.why_choose_charlie .card .card_title {
+  font-size: 1rem;
+  color: #01013c;
+  font-weight: 500;
+}
+
+.why_choose_charlie .card p {
+  font-size: 0.9rem;
+}
+
+.why_choose_charlie .card a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #808080;
+}
+
+// ends
+
+
+// industries_using_charlie
+.industries_using_charlie .title {
+  font-size: 4rem;
+  font-family: "Calistoga", serif;
+}
+
+.industries_using_charlie .sc-title {
+  background-color: #bebee7;
+  color: #01013c;
+  display: inline-block;
+  width: fit-content;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-size: 0.85rem;
+
+}
+
+.industries_using_charlie .subtitle {
+  font-size: 1.1rem;
+  color: gray;
+  font-weight: 200;
+}
+
+.industries_using_charlie ul li {
+  color: #01013c;
+  font-weight: 500;
+  padding: 6px 0;
+}
+
+.industries_using_charlie ul li::before {
+  content: '\2713';
+  padding: 0 20px;
+  font-weight: 500;
+}
+
+// end
+
+// faqs
+.faqs .title {
+  font-size: 4rem;
+}
+
+.faqs .top_text {
+  background-color: #bebee7;
+  color: #01013c;
+  display: inline-block;
+  width: fit-content;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-size: 0.85rem;
+}
+
+.faqs p {
+  font-size: 24px;
+}
+
+.faqs button {
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+
+.faqs .accordion {
+  border: 0;
+  background-color: transparent;
+}
+
+.faqs .accordion .accordion-item {
+  border: 0;
+  padding: 10px 0;
+}
+
+.faqs .accordion .accordion-body {
+  font-size: 16px;
+  color: gray;
+}
+
+.faqs .accordion .accordion-header button::before {
+  content: "\002B";
+  color: #01013c;
+  padding: 0 10px;
+}
+
+.faqs .accordion .accordion-header button {
+  border: 0 !important;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #01013c;
+  border: 0 !important;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+// end
+
+// staq_newsletter
+.staq_newsletter .newsletter_title {
+  font-size: 4rem;
+  color: #01013c;
+  font-family: "Calistoga", serif;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+@media only screen and (max-width:479px) {
+
+  .what_is_charlie .title,
+  .industries_using_charlie .title,
+  .faqs .title,
+  .staq_newsletter .newsletter_title,
+  .banner_title {
+    font-size: 2rem;
+    color: #01013c;
+    font-family: "Calistoga", serif;
+  }
+
+  .faqs p {
+    font-size: 14px;
+  }
+
+}

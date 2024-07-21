@@ -1,0 +1,337 @@
+.banner_section{
+  height: 80vh;
+  position: relative;
+  padding-top: 100px;
+  margin-top: 25px;
+}
+
+.banner_title{
+  font-size: 4rem;
+  font-weight: 600;
+}
+.banner_title span{
+  color: #437fec;
+  text-decoration: underline;
+}
+.highlighted_text{
+  color: #437fec;
+  text-decoration: underline
+}
+.banner_sub_title{
+  font-weight: 500;
+  color: #57647c;
+}
+.action_links button .fa-solid{
+  background: linear-gradient(320deg, #437fec, #437fec);
+    color: #fff;
+    padding: 12px 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+.top_animation_img{
+  position: absolute;
+  top: 0;
+  left: 250px;
+  animation: moverotate 20s infinite both;
+}
+// moverotate animated img
+@keyframes moverotate{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+
+}
+
+.left_side_img{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 380px;
+}
+.right_side_img{
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  width: 380px;
+}
+
+
+
+
+// counts section
+section{
+  padding: 100px 0px;
+}
+
+#worked_sectors{
+  background: linear-gradient(90deg,#dd24ed,#7609ea 97.61%);
+  padding: 100px 50px;
+  color: #fff;
+}
+.worked_sectors small{
+  width: 600px;
+  text-align: center;
+}
+
+// staq at glance
+.staq_at_glance h2{
+  font-family: "Calistoga", serif;
+}
+.staq_at_glance .card.card-body{
+  padding: 30px 20px;
+  border: none;
+  background-color: #f8fbff;
+  transition: 2s ease-in-out;
+}
+.staq_at_glance img{
+  width: 100px;
+  height: 100px;
+  // border: 1px solid #000;
+  border-radius: 50px;
+  padding: 20px;
+  transition: 1s ;
+}
+.staq_at_glance .card.card-body:hover img{
+  background: linear-gradient(0deg,#ffc2cc,#fff2f4);
+  transition: 1s;
+}
+.staq_at_glance .solutions_title{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.staq_at_glance .solutions_title:hover{
+  color: #ff4800;
+  transition: 1s ease-in-out;
+}
+.staq_at_glance a{
+  text-decoration: none;
+  color: #57647c;
+  font-weight: 400;
+}
+.staq_at_glance .card.card-body:hover a{
+  color: #ff4800;
+  transition: 1s ease-in-out;
+}
+
+
+// what is charlie
+
+.what_is_charlie_title{
+  font-size: 2.5rem;
+  font-family: "Calistoga", serif;
+  padding: 20px 0px;
+}
+.what_is_charlie_subtitle p{
+  font-weight: 400;
+  color: #57647c;
+  padding-bottom: 20px;
+}
+.what_is_charlie ul li{
+  padding: 15px 0px;
+  margin: 10px 0px;
+  background-color: #fff;
+  color: #57647c;
+  font-size: 0.9rem;
+
+}
+.what_is_charlie ul li .fa-solid{
+  color: green;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+}
+// what_is_charlie end
+
+
+// leveraging_charlie
+
+.leveraging_charlie{
+  // background: #f7fbff;
+  background: #bad6f336;
+}
+
+.leveraging_charlie .title {
+  padding-bottom: 60px;
+}
+.leveraging_charlie .title h2{
+  font-family: "Calistoga", serif;
+}
+
+.leveraging_charlie .title small{
+  color: #57647c;
+  font-weight: 400;
+}
+
+.leveraging_charlie .card{
+  background-color: #fff !important;
+  border: 1px solid #fff;
+  box-shadow: 1px 1px 1px 2px #fff !important;
+  padding: 10px 15px;
+  height: 100%;
+}
+.leveraging_charlie .card img{
+  width: 80px;
+  padding: 20px;
+  border-radius: 50px;
+  background: linear-gradient(0deg,#ffc2cc,#fff2f4);
+}
+.leveraging_charlie .card:hover{
+  margin-top: -10px;
+  transition: 0.5s all;
+
+}
+.leveraging_charlie .card a{
+  color: #ff4800;
+  text-decoration: none;
+  position: relative;
+}
+.leveraging_charlie .card a::after{
+  content: "";
+  position: absolute !important;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 28%;
+  background-color: #ff4800;
+}
+
+.leveraging_charlie img.data_analytics{
+  background: linear-gradient(0deg,#ffbef9,#fff1ff);
+}
+.leveraging_charlie img.security_surveillance {
+  background: linear-gradient(0deg,#ffe59a,#ffffd5) !important;
+}
+// end
+
+
+// charlie_platform
+.charlie_platform .title_section{
+  padding: 20px 0px;
+}
+.charlie_platform h2{
+  font-family: "Calistoga", serif;
+}
+.charlie_platform .card{
+  padding: 10px 10px;
+  height: 100%;
+}
+// end
+
+// awards_accolades
+
+.awards_accolades img{
+  width: 75px;
+}
+.awards_accolades .award_title{
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+// end
+
+// media
+
+.media h2{
+  font-family: "Calistoga", serif;
+}
+.media .card.card-body .media_img{
+  overflow: hidden;
+
+}
+.media .card.card-body img{
+  width: 100%;
+  height: 250px;
+  transition: 1s;
+
+}
+.media .card.card-body:hover img{
+  width: 100%;
+  height: 250px;
+  transform: scale(1.3);
+  overflow: hidden;
+  transition: 1s;
+}
+.media .media_data .media_title{
+  font-size: 1rem;
+  color: #ff4800;
+  padding: 10px 25px;
+  // transition: 3s all;
+  transition-delay: 1s;
+}
+.media .media_data .media_subtitle{
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0px 10px;
+  transition: 0.5s ease-in-out;
+}
+.media .card.card-body:hover .media_subtitle{
+  color: #ff4800;
+  padding-left: 50px !important;
+  transition: 0.5s ease-in-out;
+  position: relative;
+}
+
+// code for text before horizontal line
+.media .card.card-body .media_subtitle::before{
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 0;
+  height: 0;
+  width: 0;
+  background-color: #ff4800;
+  transition: 0.7s ease-in-out;
+}
+.media .card.card-body:hover .media_subtitle::before{
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 0;
+  height: 2px;
+  width: 40px;
+  background-color: #ff4800;
+  transition: 0.7s ease-in-out;
+}
+//  end for code for text before horizontal line
+
+// code for underline after hover on card
+
+.media .card.card-body .media_subtitle span{
+  color: #212529;
+  position: relative;
+  display: inline;
+  transition: .25s cubic-bezier(.785,.135,.15,.86) 0s;
+  padding: .1% 0;
+  // background: linear-gradient(170deg, #ff4800, #ff4800);
+  background-size: 100% 2px;
+  background-position: 0 20px;
+  background-repeat: no-repeat;
+}
+.media .card.card-body:hover .media_subtitle span{
+  color: #ff4800;
+    position: relative;
+    display: inline;
+    transition: .25s cubic-bezier(.785,.135,.15,.86) 0s;
+    padding: .1% 0;
+    background: linear-gradient(170deg, #ff4800, #ff4800);
+    background-size: 100% 1px;
+    background-position: 0 18px;
+    background-repeat: no-repeat;
+}
+
+
+// end
+
+.media_response_info p:before{
+  content: "";
+  display: inline-flex;
+  width: 10px;
+  height: 10px;
+  background-color: #ff4800;
+  border-radius: 50px;
+  margin: 0px 5px;
+}

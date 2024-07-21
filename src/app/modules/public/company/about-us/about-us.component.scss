@@ -1,0 +1,356 @@
+section {
+  padding: 100px 0;
+}
+
+#banner_section {
+  height: 70vh;
+  width: 100%;
+  padding: 0;
+  position: relative;
+}
+
+.banner_title {
+  font-size: 4rem;
+  color: #01013c;
+}
+
+.center-img{
+  transform: scale(1.1);
+  margin-top: 50px;
+}
+.right-img{
+  margin-top: 50px;
+  position: absolute;
+  top: 0;
+  right: 5%
+}
+.card-shape{
+  border: 0;
+  width: fit-content;
+  padding: 15px 30px;
+  color: #01013c;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+.card-shape .fa-solid{
+  background-color: #01013c;
+  color: #fff;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+#banner_section ol li a {
+  text-decoration: none;
+  color: #01013c;
+}
+
+#banner_section {
+  position: relative;
+}
+
+
+.who_we_are .section_title {
+  font-size: 3rem;
+  color: #01013c;
+  font-weight: 500;
+  font-family: "Calistoga", serif;
+}
+
+.who_we_are p {
+  font-weight: 200;
+  font-size: 24px;
+}
+
+.who_we_are ul li::before {
+  content: "\2713";
+  padding: 10px 10px;
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.who_we_are ul li {
+  padding: 7px 0;
+  font-size: 1rem;
+}
+
+.who_we_are_images {
+  position: relative;
+
+}
+
+.who_we_are_images .center-img {
+  transform: scale(0.8);
+  position: absolute;
+  left: 26%;
+  top: -100px;
+}
+
+.center-bottom-img {
+  position: absolute;
+}
+
+.left-side-img {
+  transform: scale(0.8) translateY(100px);
+}
+
+.right-side-img {
+  position: absolute;
+  right: 50px;
+  transform: scale(0.8) translateY(0);
+}
+
+.left-bottom {
+  position: absolute;
+  top: 300px !important;
+  left: 0 !important;
+}
+
+.right-bottom {
+  position: absolute;
+  top: 300px !important;
+  right: 0 !important;
+}
+
+// WHO WE ARE ends here
+
+// fancy cardds section
+.fancy_cards {
+  background-color: #7736ff;
+  height: 90vh;
+  position: relative;
+  margin: 100px 0;
+}
+
+.fancy_cards .card img {
+  width: 50px;
+}
+
+.fancy_cards .card {
+  position: relative;
+  top: -150px;
+  border: none;
+  padding: 30px 30px;
+  height: 350px;
+}
+
+.fancy_cards .card_title {
+  font-size: 1.5rem;
+  color: #01013c;
+  padding: 10px 0;
+}
+
+.fancy_cards .card .card-body p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.fancy_cards .counts .cnt_number {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.fancy_cards .counts p {
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+.advantages_of_ai {
+  position: relative;
+  top: -100px;
+}
+
+// end
+
+// WHY CHOOSE US
+
+.why_choose_us h2 {
+  font-size: 4rem;
+  color: #01013c;
+  font-family: "Calistoga", serif;
+}
+
+.why_choose_us p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.why_choose_us .progress-bar {
+  background-color: #ff4800;
+}
+
+.why_choose_us .progress-bar2 {
+  background-color: #01013c;
+}
+
+.why_choose_us .progress_bar_title {
+  font-size: 16px;
+  color: #57647c;
+}
+
+
+.choose-us-center-top-img {
+  position: absolute;
+  top: 6.5%;
+  left: 17.5%;
+  transform: scale(0.8);
+}
+
+.choose-us-left-bottom-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.choose-us-right-side-top-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.choose-us-left-side-top-img {
+  position: absolute;
+  top: 20%;
+  left: 0;
+}
+
+// end
+
+
+
+@media only screen and (max-width: 479px) {
+  #banner_section {
+    height: 50vh;
+    width: 100%;
+    padding: 0;
+  }
+
+  .center-img {
+    transform: scale(0.8);
+    margin-top: 0;
+}
+.right-img{
+  margin-top: -40px;
+  position: absolute;
+  top: 0;
+  right: 0%;
+  transform: scale(0.5);
+}
+.card-shape {
+  border: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px 20px;
+  color: #01013c;
+  position: absolute;
+  top: 60%;
+  left: 0;
+  font-size: 0.85rem;
+}
+  .banner_title {
+    font-size: 2rem;
+    color: #01013c;
+  }
+
+  .banner_left_side_img,
+  .banner_right_side_img {
+    display: none;
+  }
+
+  .who_we_are_images .center-img {
+    transform: scale(0.4);
+    position: absolute;
+    left: 16%;
+    top: -150px;
+  }
+
+  .center-bottom-img {
+    position: absolute;
+    transform: scale(0.7);
+  }
+
+  .left-side-img {
+    transform: scale(0.5) translateY(170px);
+  }
+
+  .right-side-img {
+    position: absolute;
+    right: 50px;
+    transform: scale(0.5) translateX(40px);
+  }
+
+  .left-bottom {
+    position: absolute;
+    top: 200px !important;
+    left: 0 !important;
+    transform: scale(0.5);
+  }
+
+  .right-bottom {
+    position: absolute;
+    top: 200px !important;
+    right: 0 !important;
+    transform: scale(0.5);
+  }
+
+  .who_we_are  .section_title {
+    font-size: 2rem;
+    color: #01013c;
+    font-weight: 500;
+    font-family: "Calistoga", serif;
+}
+  .who_we_are  p {
+    font-weight: 200;
+    font-size: 17px;
+}
+.who_we_are  ul li {
+  padding: 7px 0;
+  font-size: 0.85rem;
+}
+  //
+  .fancy_cards {
+    background-color: #7736ff;
+    height: auto;
+    position: relative;
+    margin: 100px 0;
+  }
+
+  .fancy_cards .card {
+    position: relative;
+    top: 0;
+    border: none;
+    padding: 30px 30px;
+    height: 350px;
+  }
+
+  .advantages_of_ai {
+    position: relative;
+    top: 0;
+  }
+
+  .why_choose_us h2 {
+    font-size: 2rem;
+    color: #01013c;
+    font-family: "Calistoga", serif;
+  }
+
+  .why_choose_us p {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .choose-us-center-top-img {
+    position: absolute;
+    top: 0%;
+    left: 13%;
+    transform: scale(0.5);
+  }
+
+  .choose-us-left-bottom-img {
+    position: absolute;
+    bottom: 0;
+    left: -15%;
+    transform: scale(0.5);
+  }
+}

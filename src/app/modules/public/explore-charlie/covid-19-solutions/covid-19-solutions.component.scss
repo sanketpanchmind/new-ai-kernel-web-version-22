@@ -1,0 +1,130 @@
+
+section{
+  padding: 100px 0;
+}
+.what_is_charlie_banner_section{
+  height: 80vh;
+  width: 100%;
+
+}
+.banner_title{
+  font-size: 4rem;
+  color: #01013c;
+  line-height: 1.2;
+}
+.banner_text .banner_subtitle{
+  font-size: 1.3rem;
+
+}
+// end
+
+// covid solutns
+
+.covid_solutions .covid_solutions_title{
+  font-size: 3rem;
+  font-family: "Calistoga", serif;
+}
+.top_title{
+  background-color: #bebee7;
+  color: #01013c;
+  display: inline-block;
+  width: fit-content;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-size: 0.85rem;
+}
+.covid_solutions p{
+  font-size: 16px;
+}
+// ends
+
+
+// use_cases
+
+.use_cases .use_case_title{
+  font-size: 4rem;
+  font-family: "Calistoga", serif;
+  color: #01013c;
+  padding: 20px 0;
+}
+.use_cases .card .card-header{
+  padding: 0 !important;
+  border: 0;
+}
+.use_cases .card .card-header img{
+  border-radius: 0;
+}
+.use_cases .card .card-body .card_title{
+  font-size: 1.2rem;
+  color: #01013c;
+  font-weight: 500;
+}
+
+// end
+
+
+// insights
+.insights .title{
+  font-size: 4rem;
+  font-family: "Calistoga", serif;
+  color: #01013c;
+}
+
+.insights ul li{
+  padding: 10px 0;
+  font-size: 1rem;
+  color: #01013c;
+}
+
+// end
+
+// staq_newsletter
+.staq_newsletter .newsletter_title{
+  font-size: 4rem;
+  color: #01013c;
+  font-family: "Calistoga", serif;
+}
+.form-control:focus{
+  box-shadow: none !important;
+}
+
+
+
+@media only screen and (max-width: 479px){
+  section{
+    padding: 50px 0;
+  }
+  .banner_title {
+    font-size: 2rem;
+    color: #01013c;
+    line-height: 1.2;
+}
+.banner_text .banner_subtitle {
+  font-size: 1rem;
+}
+
+.top_title{
+  margin: 20px 0;
+}
+.covid_solutions .covid_solutions_title {
+  font-size: 2rem;
+  font-family: "Calistoga", serif;
+}
+.covid_solutions  p{
+  font-size: 14px;
+  padding: 10px 8px;
+}
+.insights .title {
+  font-size: 2rem;
+  font-family: "Calistoga", serif;
+  color: #01013c;
+}
+.insights ul li{
+  font-size: 0.85rem;
+}
+.staq_newsletter .newsletter_title {
+  font-size: 2rem;
+  color: #01013c;
+  font-family: "Calistoga", serif;
+}
+}
